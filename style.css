@@ -6,11 +6,80 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   font-size: inherit;
-  font-family: 'Roboto';
   color: #fff;
+}
+
+h1,
+h2,
+h3,
+button > * {
+  font-family: 'Roboto Slab', serif;
 }
 
 html {
   font-size: 10px;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 18rem;
+  text-align: center;
+  background: #666;
+}
+
+.hero {
+  background: rgb(87, 87, 87);
+}
+
+.btn {
+  border: #fff 3px solid;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  background: rgb(87, 87, 87);
+}
+
+.btn > * {
+  font-size: 2.2rem;
+}
+
+.main-header a {
+  background: rgb(75, 75, 75);
+}
+
+.main-header p {
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.latest-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.latest-article {
+  height: 80rem;
+  background: #555;
+}
+
+.latest-article:nth-child(2n) {
+  background: #5c5c5c;
 }
