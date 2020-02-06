@@ -71,15 +71,30 @@ a {
 }
 
 .latest-articles {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .latest-article {
   height: 80rem;
-  background: #555;
+  background: #5c5c5c;
 }
 
 .latest-article:nth-child(2n) {
-  background: #5c5c5c;
+  background: #555;
+}
+
+.heading-latest-articles {
+  position: absolute;
+  padding: 0 40%;
+  left: 0;
+  right: 0;
+  top: 2rem;
+  text-align: center;
+}
+
+.heading-latest-articles h1 {
+  color: #000;
+  background: #fff;
 }
