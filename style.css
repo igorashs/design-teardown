@@ -284,3 +284,53 @@ a {
   padding: 2rem;
   background: #c8c8c8;
 }
+
+/* smashing-newsletter */
+
+.smashing-newsletter {
+  margin: 8rem;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1000px;
+  text-align: center;
+  border-radius: 10px;
+  background: #777;
+}
+
+.smashing-newsletter h2 {
+  font-size: 4.2rem;
+}
+
+.smashing-newsletter p {
+  margin-top: 3rem;
+  font-size: 2.2rem;
+}
+
+.smashing-newsletter .btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+  border: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.smashing-newsletter .btn > * {
+  padding: 1rem 2rem;
+}
+
+.smashing-newsletter .btn > *:first-child {
+  color: rgb(92, 92, 92);
+  font-size: 1.4rem;
+}
+
+.smashing-newsletter .btn > *:last-child {
+  padding-left: 2rem;
+  height: 100%;
+  color: rgb(38, 125, 204);
+  font-size: 1.8rem;
+  border-left: 1px solid #777;
+}
