@@ -2,7 +2,7 @@
 
 > ## From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/design-teardown)
 
-> - [Live Demo]() **SOON** :shipit:
+> - [Live Demo](https://igorashs.github.io/design-teardown/) :shipit:
 
 ## Assignment
 
