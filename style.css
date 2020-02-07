@@ -122,3 +122,36 @@ a {
   color: #000;
   background: #fff;
 }
+
+/* feature-articles */
+
+.feature-articles {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  background: rgb(212, 212, 212);
+}
+
+.feature-article {
+  padding: 2rem 4rem;
+  min-height: 60rem;
+  background: #888;
+}
+
+.feature-article h2 {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.smashing-feature {
+  display: flex;
+  height: 70rem;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: span 2;
+  background: #555;
+}
+
+.smashing-feature h1 {
+  font-size: 4.2rem;
+}
