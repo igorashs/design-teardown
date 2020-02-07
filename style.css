@@ -254,3 +254,14 @@ a {
   align-self: flex-start;
   font-size: 2.2rem;
 }
+
+.handbook.small-book {
+  padding: 4rem 5rem;
+  text-align: start;
+  height: auto;
+}
+
+.handbook.small-book p {
+  font-size: 2rem;
+  padding-right: 36%;
+}
