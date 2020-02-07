@@ -155,3 +155,17 @@ a {
 .smashing-feature h1 {
   font-size: 4.2rem;
 }
+
+.see-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  background: rgb(212, 212, 212);
+}
+
+.see-all a {
+  font-size: 2rem;
+  padding: 1rem;
+  background: #666;
+}
