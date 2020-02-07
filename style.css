@@ -265,3 +265,22 @@ a {
   font-size: 2rem;
   padding-right: 36%;
 }
+
+/* curated-posts */
+
+.curated-posts {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.curated-posts h2 {
+  color: #333;
+}
+
+.curated-post {
+  height: 70rem;
+  padding: 2rem;
+  background: #c8c8c8;
+}
