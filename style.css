@@ -169,3 +169,31 @@ a {
   padding: 1rem;
   background: #666;
 }
+
+/* handbook */
+
+.handbook {
+  padding-top: 10rem;
+  height: 1100px;
+  text-align: center;
+  background: #777;
+}
+
+.handbook h1 {
+  font-size: 4.4rem;
+}
+
+.handbook p {
+  padding-top: 3rem;
+  font-size: 2.4rem;
+}
+
+.handbook .btn {
+  margin-top: 4rem;
+  background: #fff;
+}
+
+.handbook .btn > * {
+  font-size: 2.4rem;
+  color: rgb(38, 125, 204);
+}
