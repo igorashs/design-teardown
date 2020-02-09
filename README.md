@@ -7,3 +7,6 @@
 ## Assignment
 
 > Create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.
+
+## License
+This project is licensed under the MIT License
